@@ -1,5 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
+root: .
 #carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Monash University"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Sir Louis Matheson Library, Clayton, Australia"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
@@ -12,7 +13,7 @@ startdate: 2018-03-23      # machine-readable start date for the workshop in YYY
 enddate: 2018-03-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Anup Shah", "Kiril Tsyganov"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Simon Michnowicz", "Micheal See"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["anup.shah@monash.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["anup.shah@monash.edu", "kirill.tsyganov@monash.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -46,7 +47,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h2> Intro to Python </h2>
+<h2 align="center"> Introduction to Python </h2>
 
 <h4>This hands-on workshop aims to equip participants with the fundamentals of programming and give them skills needed to computational analysis approaches to research questions </h4>
 
@@ -194,9 +195,9 @@ The course is aimed at begginers to programming.
     <h3>Schedule</h3>
     <table class="table table-striped">
       <tr> <td>13:00</td>  <td>Welcome and Setup</td> </tr>
-      <tr> <td>13:30</td> <td>Intro to Python</td> </tr>
+      <tr> <td>13:30</td> <td>Session 1</td> </tr>
       <tr> <td>15:00</td>  <td>Break</td> </tr>
-      <tr> <td>15:00</td>  <td>Intro to Python</td> </tr>
+      <tr> <td>15:30</td>  <td>Session 2</td> </tr>
       <tr> <td>16:45</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
@@ -209,7 +210,7 @@ The course is aimed at begginers to programming.
       <li>Indexing and Slicing DataFrames</li>
       <li>Workflows and Automation</li>
       <li>Ploting in Python</li>
-      <li><a href="{{site.dc_githubio}}/python-ecology-lesson/reference/">Reference...</a></li>
+      <li><a href="datacarpentry.github.io/python-ecology-lesson/reference/">Reference...</a></li>
     </ul>
   </div>    
 </div>
