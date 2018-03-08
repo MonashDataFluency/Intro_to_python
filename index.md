@@ -47,9 +47,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h2 align="center"> Introduction to Python </h2>
+<!--<h2 align="center"> Introduction to Python </h2> -->
 
-<h4>This hands-on workshop aims to equip participants with the fundamentals of programming and give them skills needed to computational analysis approaches to research questions </h4>
+<h4>This hands-on workshop aims to equip participants with the fundamentals of programming and give them skills needed apply data analysis approaches to research questions </h4>
 
 <h2 id="general">General Information</h2>
 <p>
@@ -210,7 +210,7 @@ The course is aimed at begginers to programming.
       <li>Indexing and Slicing DataFrames</li>
       <li>Workflows and Automation</li>
       <li>Ploting in Python</li>
-      <li><a href="datacarpentry.github.io/python-ecology-lesson/reference/">Reference...</a></li>
+      <li><a href="{{site.dc_site}}/python-ecology-lesson/reference.html">Reference...</a></li>
     </ul>
   </div>    
 </div>
